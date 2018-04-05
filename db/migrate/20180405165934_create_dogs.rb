@@ -1,6 +1,4 @@
 class CreateDogs < ActiveRecord::Migration
-  # def change
-  # end
 
   def up
     create_table :dogs do |t|
